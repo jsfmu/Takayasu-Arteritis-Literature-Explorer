@@ -1,0 +1,85 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+
+# -----------------------------
+# Jupyter Notebooks
+# -----------------------------
+.ipynb_checkpoints/
+jupyter_cache/
+
+# -----------------------------
+# Data files (local only)
+# DO NOT COMMIT RAW OR PROCESSED DATA
+# -----------------------------
+data/raw/
+data/processed/
+*.csv
+*.json
+*.tsv
+*.parquet
+
+# If you ever export figures
+figures/
+plots/
+
+# -----------------------------
+# Streamlit / Logs
+# -----------------------------
+.streamlit/
+logs/
+*.log
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VSCode config except extensions
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# -----------------------------
+# Cache directories
+# -----------------------------
+.cache/
+__cache__/
+.cache*
+temp/
+tmp/
+
+# -----------------------------
+# Environment files
+# -----------------------------
+.env
+*.env
+*.ini
+*.cfg
+
+# -----------------------------
+# Build artifacts
+# -----------------------------
+build/
+dist/
+*.egg-info/

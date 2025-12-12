@@ -1,0 +1,8 @@
+requests
+pandas
+numpy
+spacy
+scikit-learn
+matplotlib
+plotly
+streamlit
